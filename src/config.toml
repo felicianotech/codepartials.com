@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+title = "CodePartials.com"
+languageCode = "en-us"
+theme = "codepartials.com-2017"
+
+googleAnalytics = "UA-66191620-1"
+
+enableEmoji = true
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "CircleCI"
+	url		= "/circleci/"
+	weight	= 5
+
+[[menu.main]]
+	name	= "Hugo"
+	url		= "/hugo/"
+	weight	= 10
